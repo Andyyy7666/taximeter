@@ -1,7 +1,7 @@
 
 author "Andyyy#7666"
 description "Taximeter for ND_Core"
-version "1.0.0"
+version "1.0.1"
 
 fx_version "cerulean"
 game "gta5"
@@ -12,7 +12,7 @@ files {
 }
 ui_page "ui/index.html"
 
-shared_script "config.lua"
+--shared_script "config.lua"
 client_script {
     "client/**"
 }
